@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#_project\\EsemkaLibarary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|d:\\c#_project\\esemkalibarary\\esemkalibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|solutionrelative:esemkalibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|d:\\c#_project\\esemkalibarary\\newborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|solutionrelative:newborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|d:\\c#_project\\esemkalibarary\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|solutionrelative:loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|D:\\c#_project\\EsemkaLibarary\\newborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|solutionrelative:newborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|D:\\c#_project\\EsemkaLibarary\\esemkalibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|solutionrelative:esemkalibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|d:\\c#_project\\esemkalibarary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1F77F3-F615-47CA-8D7E-849C502284FF}|EsemkaLibarary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewBorrowing.cs",
+              "DocumentMoniker": "D:\\c#_project\\EsemkaLibarary\\NewBorrowing.cs",
+              "RelativeDocumentMoniker": "NewBorrowing.cs",
+              "ToolTip": "D:\\c#_project\\EsemkaLibarary\\NewBorrowing.cs",
+              "RelativeToolTip": "NewBorrowing.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:15:50.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadData.cs",
+              "DocumentMoniker": "D:\\c#_project\\EsemkaLibarary\\LoadData.cs",
+              "RelativeDocumentMoniker": "LoadData.cs",
+              "ToolTip": "D:\\c#_project\\EsemkaLibarary\\LoadData.cs",
+              "RelativeToolTip": "LoadData.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T06:12:54.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EsemkaLibrary.cs",
+              "DocumentMoniker": "D:\\c#_project\\EsemkaLibarary\\EsemkaLibrary.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary.cs",
+              "ToolTip": "D:\\c#_project\\EsemkaLibarary\\EsemkaLibrary.cs",
+              "RelativeToolTip": "EsemkaLibrary.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:08:19.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewBorrowing.cs [Design]",
+              "DocumentMoniker": "D:\\c#_project\\EsemkaLibarary\\NewBorrowing.cs",
+              "RelativeDocumentMoniker": "NewBorrowing.cs",
+              "ToolTip": "D:\\c#_project\\EsemkaLibarary\\NewBorrowing.cs [Design]",
+              "RelativeToolTip": "NewBorrowing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:04:16.93Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#_project\\EsemkaLibarary\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\c#_project\\EsemkaLibarary\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:00:26.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EsemkaLibrary.cs [Design]",
+              "DocumentMoniker": "D:\\c#_project\\EsemkaLibarary\\EsemkaLibrary.cs",
+              "RelativeDocumentMoniker": "EsemkaLibrary.cs",
+              "ToolTip": "D:\\c#_project\\EsemkaLibarary\\EsemkaLibrary.cs [Design]",
+              "RelativeToolTip": "EsemkaLibrary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T06:52:17.949Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
