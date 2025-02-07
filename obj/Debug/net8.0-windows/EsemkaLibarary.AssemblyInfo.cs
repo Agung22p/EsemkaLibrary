@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsemkaLibarary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13894b6b959067a30f552bdd9b322e3ba4d38aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsemkaLibarary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsemkaLibarary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,10 @@ namespace EsemkaLibarary
 {
     public partial class EsemkaLibrary : Form
     {
+        private int memberId;
+
         LoadData data = new LoadData();
+
         public EsemkaLibrary()
         {
             InitializeComponent();
@@ -32,8 +35,17 @@ namespace EsemkaLibarary
 
         private void button2_Click(object sender, EventArgs e)
         {
-            NewBorrowing newBorrowing = new NewBorrowing();
+            int id = data.SearchMember(textBox1.Text);
+            NewBorrowing newBorrowing = new NewBorrowing(id);
+
+            newBorrowing.onBorrowed += RefreshDataGrid;
+
             newBorrowing.Show();
+        }
+
+        private void RefreshDataGrid()
+        {
+            data.SearchBorrowBook(textBox1,button2, dataGridView1);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -41,10 +53,10 @@ namespace EsemkaLibarary
             DataGridView dgv = sender as DataGridView;
             if (e.ColumnIndex == dgv.Columns["btnReturn"].Index && e.RowIndex >= 0)
             {
-                int borrowId = Convert.ToInt32(dgv.Rows[e.RowIndex].Tag);
+                int borrowId = Convert.ToInt32(dgv.Rows[e.RowIndex].Cells["BorrowId"].Value);
 
-                string TitleBook = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-                int Overdue = (int)dataGridView1.Rows[e.RowIndex].Cells[4].Value;
+                string TitleBook = dataGridView1.Rows[e.RowIndex].Cells["Title"].Value.ToString();
+                int Overdue = (int)dataGridView1.Rows[e.RowIndex].Cells["Overdue_Days"].Value;
                 string fineString = null;
                 if (Overdue > 0)
                 {
@@ -55,7 +67,7 @@ namespace EsemkaLibarary
                 MessageBox.Show($"Success return \"{TitleBook}.\" \n {fineString}", "Notification", MessageBoxButtons.OK);
 
                 data.UpdateReturn(borrowId);
-                //refresh datagrid view
+                data.AddBookStock(TitleBook);
                 data.SearchBorrowBook(textBox1, button2, dataGridView1);
             }
         }

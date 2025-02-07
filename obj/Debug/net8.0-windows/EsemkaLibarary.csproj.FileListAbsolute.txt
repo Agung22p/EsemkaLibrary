@@ -23,3 +23,4 @@ D:\c#_project\EsemkaLibarary\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\S
 D:\c#_project\EsemkaLibarary\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 D:\c#_project\EsemkaLibarary\obj\Debug\net8.0-windows\EsemkaLibarary.csproj.AssemblyReference.cache
 D:\c#_project\EsemkaLibarary\obj\Debug\net8.0-windows\EsemkaLi.57F9679F.Up2Date
+D:\c#_project\EsemkaLibarary\obj\Debug\net8.0-windows\EsemkaLibarary.sourcelink.json
